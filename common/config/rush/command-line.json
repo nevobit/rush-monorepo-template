@@ -188,6 +188,13 @@
    * For example, you might define a "--production" parameter for the "rush build" command.
    */
   "parameters": [
+    {
+      "parameterKind": "string",
+      "argumentName": "MESSAGE",
+      "longName": "--edit",
+      "description": "This is the param used for git commit message(... -m 'message as para')",
+      "associatedCommands": ["comminlint"]
+    }
     // {
     //   /**
     //    * (Required) Determines the type of custom parameter.
