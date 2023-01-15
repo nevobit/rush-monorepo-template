@@ -193,7 +193,7 @@
       "argumentName": "MESSAGE",
       "longName": "--edit",
       "description": "This is the param used for git commit message(... -m 'message as para')",
-      "associatedCommands": ["comminlint"]
+      "associatedCommands": ["commitlint"]
     }
     // {
     //   /**
